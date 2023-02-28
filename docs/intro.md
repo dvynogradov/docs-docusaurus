@@ -6,6 +6,8 @@ sidebar_position: 1
 
 Hello! Someone was here and made these edits. =)
 
+Added a new line of text. Will add more lines later.
+
 Let's discover **Docusaurus in less than 5 minutes**.
 
 ## Getting Started
