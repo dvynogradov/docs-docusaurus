@@ -60,6 +60,7 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Home',
+        hideOnScroll: false,
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -70,6 +71,21 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            type: 'dropdown',
+            label: 'External resources',
+            position: 'left',
+            items: [
+              {
+                label: 'Docusaurus',
+                href: 'https://docusaurus.io/',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/'
+              }
+            ]
+          }
         ],
       },
       footer: {
