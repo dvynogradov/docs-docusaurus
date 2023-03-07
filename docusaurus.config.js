@@ -63,7 +63,7 @@ const config = {
         hideOnScroll: false,
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/binders.png',
         },
         items: [
           {

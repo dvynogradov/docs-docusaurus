@@ -12,6 +12,13 @@ Hello! Someone was here and made these edits. =)
 
 Added a new line of text. Will add more lines later.
 
+<div class="alert alert--primary" role="alert">
+  <button aria-label="Close" class="clean-btn close" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+  This is a <strong>primary</strong> alert. Think about it.
+</div>
+
 ## Getting Started
 
 Get started by **creating a new site**.
