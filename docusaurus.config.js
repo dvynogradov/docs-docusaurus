@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Docs-Site-Docs',
   tagline: 'Docs are cool',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/binders.png',
 
   // Set the production url of your site here
   url: 'https://docusaurus-2.netlify.app',
