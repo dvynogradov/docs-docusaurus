@@ -65,28 +65,6 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/binders.png',
         },
-        items: [
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
-          {
-            type: 'dropdown',
-            label: 'External resources',
-            position: 'left',
-            items: [
-              {
-                label: 'Docusaurus',
-                href: 'https://docusaurus.io/',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/'
-              }
-            ]
-          }
-        ],
       },
       footer: {
         style: 'dark',
