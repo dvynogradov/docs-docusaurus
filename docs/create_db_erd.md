@@ -1,9 +1,21 @@
 ---
-Description: Documenting a database
+Description: Database ERD
 ---
 
-# Introduction
+# How to create a database entity relationship diagram (ERD)
+
+
+
 Add a note somewhere to emphasize that this article is about documentation for relational databases.
+
+## What can be documented in a relational database
+- Tables
+- Views
+- Field and their attributes
+- Keys (primary, foreign, alternate)
+- Stored procedures
+- Constraints?
+- Triggers?
 
 Database documentation must achieve the following goals:
 explain the purpose of the database
@@ -16,7 +28,17 @@ diagrams that illustrate relations between different tables
 ! Consider keeping the intro above as a separate doc + one separate doc "How to create a DB dictionary" + one more separate doc "How to create an ERD"
 
 ## Database dictionaries
-What they are and how they are made.
+This article describes how to create a database dictionary for a relational database.
 
-## Entity Relatioship Diagrams
-What they are and how they are made.
+Table-based description
+- Table name
+- Table description (purpose)
+- Fields
+    - Name (logical and physical)
+    - Data type
+    - Null status
+    - Description
+
+
+## Entity Relatioship diagrams
+This article describes how to create an Entity Relationship (ER) diagram for a relational database.
