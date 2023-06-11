@@ -1,8 +1,8 @@
 ---
-title: Create a sample PgSQL database
+title: How to intall PgSQL
 ---
 
-# How to create a sample PgSQL database
+# How to install PgSQL
 
 ## Prerequisites
 This article uses a [PosgreSQL](https://www.postgresql.org) database as an example.  to test this step on your local machine, you will need the following:
