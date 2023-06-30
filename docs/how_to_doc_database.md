@@ -16,6 +16,25 @@ Also, if you have no experience with relational databases, you might want to lea
 - [What is a relational database?](https://cloud.google.com/learn/what-is-a-relational-database) by Google.
 - [Relational database](https://en.wikipedia.org/wiki/Relational_database) on Wikipedia.  
 
+## What is a database documentation?
+Database documentation usually consists of:
+- A database dictionary, which describes all tables that exist in a database (each table's columns, data types, keys, nullability). It can also describe views, stored procedures etc.
+- An entity relationship diagram (which provides a high-level view of all tables and the relationships between them).
+
+### Database dictionary
+
+
+### Entity-relationship diagram
+
+
+
+
+
+
+
+
+
+BELOW ARE SOME DRAFTS THAT MIGHT BE USEFUL
 
 [Crow's foot notation](https://en.wikipedia.org/wiki/Entity–relationship_model#Crow's_foot_notation)
 
