@@ -4,7 +4,7 @@ title: How to document a database
 # How to document a relational database
 
 ## Overview
-This article provides basic guidelines for documenting relational databases using a PostgreSQL database as an example.
+This artile provides basic guidelines for documenting relational databases using a PostgreSQL database as an example.
 
 ## Prerequisites
 If you want to follow along with the examples in this article, you'll need to install the following:
@@ -25,13 +25,6 @@ Database documentation usually consists of:
 
 
 ### Entity-relationship diagram
-
-
-
-
-
-
-
 
 
 BELOW ARE SOME DRAFTS THAT MIGHT BE USEFUL
