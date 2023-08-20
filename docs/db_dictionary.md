@@ -2,13 +2,9 @@
 title: Database dictionary
 ---
 # Database dictionary
-This article describes how to create a database dictionary for a relational database.
-Relational databases store data in tables. The goal of the database dictionary is to provide a detailed description for each table in the database - its purpose, structure, and attributes. The attributes include table columns (also called fields), column descriptions, and constraints.
+This article describes the process of creating a database dictionary for a relational database. We will be documenting a sample PostgreSQL database called *DVD rental*, assuming we need to create a database dictionary from scratch.
 
-## Collect data
-Option 1
-If you have access to the database, you can reverse engineer the database schema to have an overview of all tables in the database. The reverse engineered schema should provide the information like table name, columns, data types, and constraints. 
-One thing you can't reverse engineer is the table's purpose. Sometimes, the purpose is clear when you look at the table. If not, ask a subject matter expert (SME) for clarification.
-
-Option 2
-If you don't have access to the database, ask a SME or a database administrator to retrieve the information you need.
+Below are the prerequisites that you'll need to have installed on your local machine if you want to follow along.
+* A PostgreSQL database server. Download from the [official website](https://www.postgresql.org/download/).
+* A database administration tool. For example, [pgAdmin](https://www.pgadmin.org) or [DBeaver](https://dbeaver.io).
+* The DVD rental sample database. Download the database files [here](https://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip). Then follow the [installation instructions](https://www.postgresqltutorial.com/postgresql-getting-started/load-postgresql-sample-database/).
